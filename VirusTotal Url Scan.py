@@ -12,6 +12,8 @@ apikey = 'your api key here'
 ### scanning the list of urls from the csv file
 with open('url_list.csv','r') as csvfile:
     reader = csv.reader(csvfile)
+    #skip the header
+    next(reader)
     ## which column are the urls in ?
     column_index = 0
     

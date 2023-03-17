@@ -1,4 +1,4 @@
-URL Scanner using VirusTotal API
+## URL Scanner using VirusTotal API
 This Python code scans a list of URLs using the VirusTotal API to check if they have been detected as malicious by any anti-virus (AV) engines.
 
 Prerequisites
